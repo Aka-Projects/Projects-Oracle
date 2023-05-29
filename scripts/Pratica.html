@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function saltarLinea() {
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase) {
+            document.write(frase)
+            saltarLinea();
+        }
+        var anho = 2023;
+        imprimir("La suma de las edades de Jose, Carlos y Juan es de...");
+        imprimir(20 + 23 + 42);
+        imprimir("Juan nacío en  el: " + (anho - 20));
+        imprimir("CCarlos nacío en  el: " + (anho - 23));
+        imprimir("Juan nacío en  el: " + (anho - 42));
+
+        promedio = (20 + 23 + 42) / 3;
+        imprimir("El promedio de las edades de las locas es de: " + Math.round(promedio));
+
+
+        imprimir("La diferencia de edad entre nosotros es de: " + (2015 - 2003) + " años")
+
+
+    </script>
+</body>
+
+</html>

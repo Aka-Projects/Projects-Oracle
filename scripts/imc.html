@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>CALCULAR IMC</h1>
+
+<body>
+    <script>
+        function saltarLinea() {
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase) {
+            document.write(frase)
+            saltarLinea();
+        }
+        function calcularImc(p, h) {
+            return (p / (h * h));
+        }
+
+        n = prompt("Introduce tu nombre")
+        p = prompt(n + " introduce tu peso")
+        h = prompt(n + " introduce tu altura")
+        imcCalculado = calcularImc(p, h)
+        imprimir(n + "su imc es de " + imcCalculado);
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
